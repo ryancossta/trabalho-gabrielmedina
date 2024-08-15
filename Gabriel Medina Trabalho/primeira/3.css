@@ -1,0 +1,189 @@
+body{
+    background-color: #0072b8; 
+}
+  
+
+header{
+    background-color: rgb(0,183,255);
+    color: white;
+    padding:  -1px 100%; 
+    width: 100%;
+    height: 137px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+ 
+.logo h1 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+nav ul li a:hover {
+    color: rgb(0, 8, 255);
+}
+
+h1{
+    text-align: center;
+}
+ p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+ }
+
+h2{
+    color: black;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-group select {
+    height: 40px;
+    padding: 0 10px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(0,183,255);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+ 
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ 
+.footer-content p {
+    margin: 0;
+    font-size: 19px;
+}
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+ 
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+ 
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.social-links a:hover {
+    text-decoration: underline;
+}
+ 
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 24px;
+    font-size: 35px;
+}
+
+
